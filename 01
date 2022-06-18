@@ -1,0 +1,11 @@
+number_str = input('Check to see if it is an Armstrong number!')
+number_int = int(number_str)
+suprr = len(number_str)
+total = 0
+for i in number_str:
+total_each = (int(i))**suprr
+total += total_each
+if total == number:
+print('This is an Armstrong number')
+else:
+print('This is not an Armstrong number')
